@@ -1,0 +1,129 @@
+<html>
+
+<head>
+    <title>form example</title>
+</head>
+
+<body>
+    
+   <center><h1>Form Example</h1></center>
+<style>
+    th{
+        text-align: left;
+        padding: 10px;
+    }
+</style>
+   <center>
+
+    <table border="1">
+          <form action="submit" method="post">
+   
+        <tr>
+        <th><label for="username">Firstname:</label></th>
+        <td><input type="text" name:"username" placeholder="enter your Firstname" required><br></td>
+        </tr>
+    
+
+         
+         <tr>
+        <th><label for="lname">Lastname:</label></th>
+       <td> <input type="text" name:"lname" placeholder="enter your Lastname" required><br></td></tr>
+       
+
+       
+        <tr>
+        <th><label for="Email">Email: </label></th>
+        <td><input type="email" name:"email" placeholder="Email" required><br></td>
+        </tr>
+        
+
+
+        
+            <tr>
+        <th><label for="MobileNo">Mobile No:</label></th>
+        <td><input type="tel" name:"MobileNo" placeholder="enter your Mobile No" required><br></td>
+        </tr>
+        
+
+
+         
+            <tr>
+       <th> <label for="password">Password:</label></th>
+        <td><input type="password" name="password" placeholder="Enter your password" required><br></td>
+        </tr>
+         
+        <tr>
+        <th><label for="Age">Age:</label></th>
+        <td><input type="number" name:"Age" placeholder="enter your Age"><br></td>
+        </tr>
+         
+        <tr>
+        <th><label for="date">Date:</label></th>
+        <td><input type="date" name="date"><br></td>
+        </tr>
+         
+        <tr>
+        <th><label for="time">Time:</label></th>
+        <td><input type="time" name="time"><br></td>
+        </tr>
+         
+        <tr>
+        <th><label for="filr">File:</label></th> 
+        <td><input type="file"><br></td>
+        </tr>
+        
+
+         <tr>
+        <th>Choose gender: <br></th>
+        <td><input type="radio" name="gender" value="M">Male <br>
+        <input type="radio" name="gender" value="F">Female <br></td>
+        </tr>
+
+        <tr>
+        <th><label for="course">Course</label></th>
+        <td><select name="course:" id="course">
+            <option value="BCA">BCA</option>
+            <option value="BCA">BBA</option>
+            <option value="BCA">B.COM</option>
+        </select>
+        <br></td>
+        </tr>
+
+         <tr>
+        <th><label for="hobbies">Hobbies:</label><br></th>
+       <td> <input type="checkbox" name="hobbies" value="click">Sports <br>
+        <input type="checkbox" name="hobbies" value="click">Reading <br>
+        <input type="checkbox" name="hobbies" value="click">Dancing<br></td>
+        </tr>
+         
+
+        <tr>
+        <th><label for="volume">Volume:</label></th>
+        <td><input type="range" name="volume"><br></td>
+        </tr>
+        
+
+        <tr>
+        <th><label for="color">Favorite Color:</label></th>
+        <td><input type="color" name="color"><br></td>
+        </tr>
+
+         
+
+
+
+          
+         <tr>
+        <td><input type="submit" name="Submit">
+        <input type="reset" name="reset"></td>
+        </tr>
+        
+    
+
+        </form>
+        </table>
+        </center>
+
+</body>
+
+</html>
